@@ -1,31 +1,28 @@
-#include <unistd.h>
-#include <stdio.h>
-
 int main(int argc, char **argv){
     
-    char nom[20];
-    char prenom[20];
-    char age[20];
-    char sexe[20];
-    char tele[20];
+    char Nom[20];
+    char Prenom[20];
+    char Age[20];
+    char Sexe[20];
+    char Tel[20];
 
-    printf("Votre Nom\n");
-    scanf("%s", nom);
+    printf("Quel est votre Nom:\n");
+    scanf("%s", Nom);
 
-    printf("Votre Prenom\n");
-    scanf("%s", prenom);
+    printf("Quel est votre Prenom:\n");
+    scanf("%s", Prenom);
 
-    printf("Votre Age\n");
-    scanf("%s", age);
+    printf("Quel est votre Age:\n");
+    scanf("%s", Age);
 
-    printf("Votre Sexe\n");
-    scanf("%s", sexe);
+    printf("Quel est votre Sexe:\n");
+    scanf("%s", Sexe);
 
-    printf("Votre Tele\n");
-    scanf("%s", tele);
+    printf("Quel est votre Numero de Telephone:\n");
+    scanf("%s", Tel);
 
 
-    printf("Nom Complet : %s %s, Age : %s, Sexe : %s, Tele : %s\n", nom, prenom, age, sexe, tele);
+    printf("Nom et Prenom: %s %s, Age: %s, Sexe: %s, Numero de telephone: %s\n", Nom, Prenom, Age, Sexe, Tel);
 
     return 0;
 }
