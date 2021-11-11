@@ -1,10 +1,13 @@
-int main(int argc, char **argv){
+#include <unistd.h>
+#include <stdio.h>
+
+int main(){
     
-    char Nom[20];
-    char Prenom[20];
-    char Age[20];
-    char Sexe[20];
-    char Tel[20];
+    char Nom[25];
+    char Prenom[25];
+    char Age[25];
+    char Sexe[25];
+    char Tel[25];
 
     printf("Quel est votre Nom:\n");
     scanf("%s", Nom);
