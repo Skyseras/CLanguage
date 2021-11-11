@@ -24,7 +24,7 @@ int main(){
     printf("Quel est votre Numero de Telephone:\n");
     scanf("%s", Tel);
 
-    printf("Nom et Prenom: %s %s, Age: %s, Sexe: %s, Numero de telephone: %s\n", Nom, Prenom, Age, Sexe, Tel);
+    printf("Nom et Prenom: %s %s \nAge: %s \nSexe: %s \nNumero de telephone: %s\n", Nom, Prenom, Age, Sexe, Tel);
 
     return 0;
 }
